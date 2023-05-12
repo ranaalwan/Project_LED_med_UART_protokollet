@@ -14,10 +14,10 @@ src: Mapp som innehåller källkoden för projektet.
 main.c: Huvudprogrammet som initierar UART-kommunikationen och LED-styrningen.
 uart.c: Implementeringen av UART-drivrutinen.
 led.c: Implementeringen av LED-drivrutinen.
-include: Mapp som innehåller headerfiler för projektet.
 uart.h: Headerfil för UART-drivrutinen.
 led.h: Headerfil för LED-drivrutinen.
-Makefile: Fil som används för att bygga projektet med hjälp av GNU Make.
+include: Mapp som innehåller headerfiler för projektet.
+
 Användning
 För att använda projektet behöver du en STM32-mikrokontrollerplattform med stöd för UART-kommunikation och LED-lampor. Du kan ladda upp koden till mikrokontrollern och ansluta LED-lamporna till de utgångar som specificerats i LED-drivrutinen.
 
